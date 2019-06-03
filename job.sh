@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-# Load python 2.7.9
+# Load a module
 module load python/2.7.9
-echo 'Python version : ' ${python --version}
 
 # Print current directory
 echo 'Current working directory : ' $SLURM_SUBMIT_DIR
