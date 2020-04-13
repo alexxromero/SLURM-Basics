@@ -1,6 +1,6 @@
 # Basic guide for using UCI's green planet cluster  
 
-from https://github.com/dguest/slurm-example  
+Based on https://github.com/dguest/slurm-example  
 The Greenplanet cluster uses the SLURM queue.       
 
 ### Basic commands  
