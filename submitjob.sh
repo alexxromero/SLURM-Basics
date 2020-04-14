@@ -16,7 +16,7 @@ mkdir -p logs
 # -e logs/error-%j.txt : file for batch script's standard error
 # -o logs/out-%j.txt : file for batch script's standard output
 
-FLGS="-t 20 -p atlas_all -c 2 -o logs/out-%j.txt -e logs/error-%j.txt"
+FLGS="-t 20 -p atlas -c 2 -o logs/out-%j.txt -e logs/error-%j.txt"
 
 # Submit the job
 sbatch ${FLGS} job.sh

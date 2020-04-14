@@ -9,3 +9,6 @@ cd $SLURM_SUBMIT_DIR
 
 # That's it. You're a pro now. 
 echo "Heyo :)"
+
+# April 14: Now try executing a python script.
+./python_script.py
