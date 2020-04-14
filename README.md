@@ -5,13 +5,13 @@ The Greenplanet cluster uses the SLURM queue.
 
 ### Basic SLURM commands  
 
-man <command> : Get documentation on a command    
+man <COMMAND> : Get documentation on a command    
 sbatch <myscript.sh> : Submit job     
 sbatch --test-only <myscript.sh> : Test job and find out the estimated time to run   
-squeue -u <username> : List current jobs for a user    
-squeue -u <username> -p shared : List all current jobs in the shared partition for a user    
-scancel <jobid> : Cancel a job    
-scancel -u <username> : Cancel all jobs for a user 
+squeue -u <USERNAME> : List current jobs for a user    
+squeue -u <USERNAME> -p shared : List all current jobs in the shared partition for a user    
+scancel <JOBID> : Cancel a job    
+scancel -u <USERNAME> : Cancel all jobs for a user 
 
 
 
