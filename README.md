@@ -27,4 +27,4 @@ This script specifies the flags and submits 'job.sh' to the cluster.
 module avail : To see the available software  
 module load <module name> : To load a module  
 
-srun --pty  -t 300 -n 1 -p atlas_all bash -i : Interative shell 
+srun --pty  -t 300 -n 1 -p atlas_all bash -i : Interactive shell 
